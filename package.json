@@ -1,0 +1,23 @@
+{
+  "name": "@axel669/simpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "simpl.server": "./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
+  "type": "module",
+  "dependencies": {
+    "@hono/node-server": "^2.0.2",
+    "fs-jetpack": "^5.1.0",
+    "hono": "^4.12.18",
+    "jsonc": "^2.0.0"
+  }
+}
